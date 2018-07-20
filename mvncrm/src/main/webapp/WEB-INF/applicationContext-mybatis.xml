@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- spring中引入外部properties文件 -->
+    <context:property-placeholder location="classpath:*.properties"/>
+
+    <!-- 配置数据源连接池 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${dbcp.driver1}"/>
+        <property name="url" value="${dbcp.url1}"/>
+        <property name="username" value="${dbcp.username1}"/>
+        <property name="password" value="${dbcp.password1}"/>
+    </bean>
+
+    <!-- spring整合mybati的session工厂 -->
+    <bean name="" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 加载mybatis全局配置文件 -->
+        <!--<property name="configLocation" value="classpath:sqlMapconfig.xml"/>-->
+    </bean>
+
+    <!-- spring接管mapper代理对象 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 配置加载mapper.xml位置，所在的包 -->
+        <property name="basePackage" value="com.zpark.mapper"/>
+    </bean>
+
+</beans>
