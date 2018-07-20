@@ -15,7 +15,8 @@ public class UserController {
 
 
     /**
-     * 测试分支2
+     * 测试分支1
+     * 分支1
      * @param m hh
      * @return null
      */
@@ -24,8 +25,8 @@ public class UserController {
         m.addAttribute("name","张三78");
         System.out.println("hello333333333");
         us.test();
-        System.out.println("你好");
-
+        System.out.println("你好分支1");
+        //这是分支1啊
         new ModelAndView("hello");
 
         return "hello";
