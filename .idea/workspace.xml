@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mvn-crm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b1d42d1-a66d-4563-80da-76954cc925a2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/CustomerCareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/CustomerConditionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/CustomerInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/CustomerSourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/CustomerTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/RolePMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/URoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerCare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerCareExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerConditionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerInfoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerSourceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/CustomerTypeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/PermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/RoleP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/RolePExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/URole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/URoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/UserInfoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/pojo/UserRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/utils/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/utils/MessageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/utils/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/utils/Pie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zpark/utils/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerCareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerConditionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerSourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/RolePMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/URoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/com/zpark/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerCareMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerCareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerConditionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerConditionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerSourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerSourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/CustomerTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/RolePMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/RolePMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/URoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/URoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/UserInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerCare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerCareExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerCareExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerCareExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerCareExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerConditionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerConditionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerConditionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerConditionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerInfoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerInfoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerInfoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerInfoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerSourceExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerSourceExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerSourceExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerSourceExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerTypeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerTypeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerTypeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/CustomerTypeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/PermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/PermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/PermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/PermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/RoleP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/RolePExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/RolePExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/RolePExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/RolePExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/URole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/URoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/URoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/URoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/URoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserInfoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserInfoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserInfoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserInfoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/pojo/UserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/utils/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/utils/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/utils/Part.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/utils/Pie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zpark/utils/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerCareMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerCareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerConditionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerConditionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerSourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerSourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/CustomerTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/RolePMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/RolePMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/URoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/URoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/UserInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerCare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerCareExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerCareExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerCareExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerCareExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerConditionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerConditionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerConditionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerConditionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerInfoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerInfoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerInfoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerInfoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerSourceExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerSourceExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerSourceExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerSourceExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerTypeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerTypeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerTypeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/CustomerTypeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/PermissionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/PermissionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/PermissionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/PermissionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/RoleP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/RolePExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/RolePExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/RolePExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/RolePExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/URole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/URoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/URoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/URoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/URoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserInfoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserInfoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserInfoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserInfoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/pojo/UserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/utils/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/utils/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/utils/Part.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/utils/Pie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/com/zpark/utils/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/jackson-core-2.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/jackson-databind-2.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/poi-3.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mvn-crm/view/hello.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zpark/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zpark/controller/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/soft/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="21" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mvn-crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvncrm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="tomcat7.0.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mvn-crm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mvn-crm" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65185" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mvn-crm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b1d42d1-a66d-4563-80da-76954cc925a2" name="Default" comment="" />
+      <created>1532058993270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532058993270</updated>
+      <workItem from="1532058998294" duration="3038000" />
+    </task>
+    <task id="LOCAL-00001" summary="444444444444444444">
+      <created>1532059779513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532059779513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3038000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="21" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.27062705" />
+      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3294893" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32909092" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.54695225" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Spring" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20684293" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="444444444444444444" />
+    <option name="LAST_COMMIT_MESSAGE" value="444444444444444444" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3493">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerCareMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="132" column="29" lean-forward="true" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/com/zpark/mapper/CustomerTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zpark/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>mvn-crm:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mvn-crm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

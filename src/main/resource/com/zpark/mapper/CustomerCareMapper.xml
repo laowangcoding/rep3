@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zpark.mapper.CustomerCareMapper" >
+  <resultMap id="BaseResultMap" type="com.zpark.pojo.CustomerCare" >
+    <id column="care_id" property="careId" jdbcType="INTEGER" />
+    <result column="customer_id" property="customerId" jdbcType="INTEGER" />
+    <result column="care_theme" property="careTheme" jdbcType="VARCHAR" />
+    <result column="care_way" property="careWay" jdbcType="VARCHAR" />
+    <result column="care_time" property="careTime" jdbcType="TIMESTAMP" />
+    <result column="care_remark" property="careRemark" jdbcType="VARCHAR" />
+    <result column="care_nexttime" property="careNexttime" jdbcType="TIMESTAMP" />
+    <result column="care_people" property="carePeople" jdbcType="VARCHAR" />
+    <result column="is_used" property="isUsed" jdbcType="VARCHAR" />
+    
+    <association property="ci" javaType="com.zpark.pojo.CustomerInfo">
+    	<id column="customer_id" property="customerId" jdbcType="INTEGER" />
+    	<result column="customer_name" property="customerName" jdbcType="VARCHAR" />
+    	<result column="customer_mobile" property="customerMobile" jdbcType="VARCHAR" />
+    </association>
+    
+  </resultMap>
+  
+  <select id="list" resultMap="BaseResultMap">
+  	select cc.*,ci.customer_name,ci.customer_mobile
+  	from customer_care cc
+  	left join customer_info ci on cc.customer_id = ci.customer_id
+  </select>
+  
+  
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    care_id, customer_id, care_theme, care_way, care_time, care_remark, care_nexttime, 
+    care_people, is_used
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.zpark.pojo.CustomerCareExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from customer_care
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from customer_care
+    where care_id = #{careId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from customer_care
+    where care_id = #{careId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.zpark.pojo.CustomerCareExample" >
+    delete from customer_care
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zpark.pojo.CustomerCare" >
+    insert into customer_care (care_id, customer_id, care_theme, 
+      care_way, care_time, care_remark, 
+      care_nexttime, care_people, is_used
+      )
+    values (#{careId,jdbcType=INTEGER}, #{customerId,jdbcType=INTEGER}, #{careTheme,jdbcType=VARCHAR}, 
+      #{careWay,jdbcType=VARCHAR}, #{careTime,jdbcType=TIMESTAMP}, #{careRemark,jdbcType=VARCHAR}, 
+      #{careNexttime,jdbcType=TIMESTAMP}, #{carePeople,jdbcType=VARCHAR}, #{isUsed,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.zpark.pojo.CustomerCare" >
+    insert into customer_care
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="careId != null" >
+        care_id,
+      </if>
+      <if test="customerId != null" >
+        customer_id,
+      </if>
+      <if test="careTheme != null" >
+        care_theme,
+      </if>
+      <if test="careWay != null" >
+        care_way,
+      </if>
+      <if test="careTime != null" >
+        care_time,
+      </if>
+      <if test="careRemark != null" >
+        care_remark,
+      </if>
+      <if test="careNexttime != null" >
+        care_nexttime,
+      </if>
+      <if test="carePeople != null" >
+        care_people,
+      </if>
+      <if test="isUsed != null" >
+        is_used,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="careId != null" >
+        #{careId,jdbcType=INTEGER},
+      </if>
+      <if test="customerId != null" >
+        #{customerId,jdbcType=INTEGER},
+      </if>
+      <if test="careTheme != null" >
+        #{careTheme,jdbcType=VARCHAR},
+      </if>
+      <if test="careWay != null" >
+        #{careWay,jdbcType=VARCHAR},
+      </if>
+      <if test="careTime != null" >
+        #{careTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="careRemark != null" >
+        #{careRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="careNexttime != null" >
+        #{careNexttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="carePeople != null" >
+        #{carePeople,jdbcType=VARCHAR},
+      </if>
+      <if test="isUsed != null" >
+        #{isUsed,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zpark.pojo.CustomerCareExample" resultType="java.lang.Integer" >
+    select count(*) from customer_care
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update customer_care
+    <set >
+      <if test="record.careId != null" >
+        care_id = #{record.careId,jdbcType=INTEGER},
+      </if>
+      <if test="record.customerId != null" >
+        customer_id = #{record.customerId,jdbcType=INTEGER},
+      </if>
+      <if test="record.careTheme != null" >
+        care_theme = #{record.careTheme,jdbcType=VARCHAR},
+      </if>
+      <if test="record.careWay != null" >
+        care_way = #{record.careWay,jdbcType=VARCHAR},
+      </if>
+      <if test="record.careTime != null" >
+        care_time = #{record.careTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.careRemark != null" >
+        care_remark = #{record.careRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.careNexttime != null" >
+        care_nexttime = #{record.careNexttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.carePeople != null" >
+        care_people = #{record.carePeople,jdbcType=VARCHAR},
+      </if>
+      <if test="record.isUsed != null" >
+        is_used = #{record.isUsed,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update customer_care
+    set care_id = #{record.careId,jdbcType=INTEGER},
+      customer_id = #{record.customerId,jdbcType=INTEGER},
+      care_theme = #{record.careTheme,jdbcType=VARCHAR},
+      care_way = #{record.careWay,jdbcType=VARCHAR},
+      care_time = #{record.careTime,jdbcType=TIMESTAMP},
+      care_remark = #{record.careRemark,jdbcType=VARCHAR},
+      care_nexttime = #{record.careNexttime,jdbcType=TIMESTAMP},
+      care_people = #{record.carePeople,jdbcType=VARCHAR},
+      is_used = #{record.isUsed,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zpark.pojo.CustomerCare" >
+    update customer_care
+    <set >
+      <if test="customerId != null" >
+        customer_id = #{customerId,jdbcType=INTEGER},
+      </if>
+      <if test="careTheme != null" >
+        care_theme = #{careTheme,jdbcType=VARCHAR},
+      </if>
+      <if test="careWay != null" >
+        care_way = #{careWay,jdbcType=VARCHAR},
+      </if>
+      <if test="careTime != null" >
+        care_time = #{careTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="careRemark != null" >
+        care_remark = #{careRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="careNexttime != null" >
+        care_nexttime = #{careNexttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="carePeople != null" >
+        care_people = #{carePeople,jdbcType=VARCHAR},
+      </if>
+      <if test="isUsed != null" >
+        is_used = #{isUsed,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where care_id = #{careId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zpark.pojo.CustomerCare" >
+    update customer_care
+    set customer_id = #{customerId,jdbcType=INTEGER},
+      care_theme = #{careTheme,jdbcType=VARCHAR},
+      care_way = #{careWay,jdbcType=VARCHAR},
+      care_time = #{careTime,jdbcType=TIMESTAMP},
+      care_remark = #{careRemark,jdbcType=VARCHAR},
+      care_nexttime = #{careNexttime,jdbcType=TIMESTAMP},
+      care_people = #{carePeople,jdbcType=VARCHAR},
+      is_used = #{isUsed,jdbcType=VARCHAR}
+    where care_id = #{careId,jdbcType=INTEGER}
+  </update>
+</mapper>
